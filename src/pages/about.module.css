@@ -1,0 +1,14 @@
+.columnsHeight {
+  height: 90vh !important;
+}
+@media only screen and (max-width: 789px) {
+  .columnsHeight {
+    height: auto !important;
+    margin: 5px;
+  }
+  .addMargin {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid black;
+  }
+}
