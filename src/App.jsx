@@ -9,6 +9,7 @@ import Skills from "./pages/skills";
 import "aos/dist/aos.css";
 import "./App.css";
 import Contact from "./pages/contact";
+import PageNotFound from "./pages/404";
 
 const App = () => {
   const location = useLocation();
@@ -24,7 +25,8 @@ const App = () => {
         <Route path="/projects" exact component={Projects} />
         <Route path="/skills" exact component={Skills} />
         <Route path="/contact" exact component={Contact} />
-        <Redirect to="/" />
+        <Route path="/404" exact component={PageNotFound} />
+        <Redirect to="/404" />
       </Switch>
     </AnimatePresence>
   );
