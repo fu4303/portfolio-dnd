@@ -1,22 +1,24 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a09c08c3.chunk.css",
-    "main.js": "/Portfolio/static/js/main.69623e4a.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.69623e4a.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.a356dad7.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a356dad7.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.d5ddb33d.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.d5ddb33d.js.map",
     "static/css/2.ec02d681.chunk.css": "/Portfolio/static/css/2.ec02d681.chunk.css",
-    "static/js/2.dd12480c.chunk.js": "/Portfolio/static/js/2.dd12480c.chunk.js",
-    "static/js/2.dd12480c.chunk.js.map": "/Portfolio/static/js/2.dd12480c.chunk.js.map",
+    "static/js/2.279e4b4f.chunk.js": "/Portfolio/static/js/2.279e4b4f.chunk.js",
+    "static/js/2.279e4b4f.chunk.js.map": "/Portfolio/static/js/2.279e4b4f.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/Portfolio/static/css/2.ec02d681.chunk.css.map",
     "static/css/main.a09c08c3.chunk.css.map": "/Portfolio/static/css/main.a09c08c3.chunk.css.map",
-    "static/js/2.dd12480c.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.dd12480c.chunk.js.LICENSE.txt",
+    "static/js/2.279e4b4f.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.279e4b4f.chunk.js.LICENSE.txt",
+    "static/media/404.56c951f5.gif": "/Portfolio/static/media/404.56c951f5.gif",
     "static/media/cattle-stray-mockup.bcf6299f.jpg": "/Portfolio/static/media/cattle-stray-mockup.bcf6299f.jpg",
     "static/media/covid-mockup.f470f15a.jpg": "/Portfolio/static/media/covid-mockup.f470f15a.jpg",
     "static/media/gravity-mockup.65499a35.jpg": "/Portfolio/static/media/gravity-mockup.65499a35.jpg",
     "static/media/ielts-mockup.f01cb2aa.jpg": "/Portfolio/static/media/ielts-mockup.f01cb2aa.jpg",
     "static/media/mail.009a806b.gif": "/Portfolio/static/media/mail.009a806b.gif",
+    "static/media/resume.b80cd758.pdf": "/Portfolio/static/media/resume.b80cd758.pdf",
     "static/media/simulator-mockup.73692320.jpg": "/Portfolio/static/media/simulator-mockup.73692320.jpg",
     "static/media/sorting-mockup.71a6f5a3.jpg": "/Portfolio/static/media/sorting-mockup.71a6f5a3.jpg",
     "static/media/techfest-mockup.0904ebc4.jpg": "/Portfolio/static/media/techfest-mockup.0904ebc4.jpg"
@@ -24,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.d5ddb33d.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.dd12480c.chunk.js",
+    "static/js/2.279e4b4f.chunk.js",
     "static/css/main.a09c08c3.chunk.css",
-    "static/js/main.69623e4a.chunk.js"
+    "static/js/main.a356dad7.chunk.js"
   ]
 }
