@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar";
 import Outline from "../components/Outline";
 import styles from "./about.module.css";
 import SocialMedia from "../components/SocialMedia";
+import Resume from "./resume.pdf";
 
 const color = "#75ebb0";
 
@@ -42,6 +43,14 @@ const About = () => {
                   logical thinking skills. Profuse experience of developing and
                   maintaining web as well as mobile applications.
                 </p>
+                <a
+                  class="button is-primary my-5"
+                  href={Resume}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  My Resume
+                </a>
                 <SocialMedia />
               </div>
             )}
