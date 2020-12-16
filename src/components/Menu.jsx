@@ -246,6 +246,29 @@ const Menu = ({ color }) => {
 
   addMyFunction(handleOpenMenu);
 
+  const addClickHandler = useCallback(() => {
+    const circle = document.querySelectorAll(".circle-selector");
+
+    circle.forEach((item, index) => {
+      item.addEventListener("click", () => {
+        setMenuText("Drop Here");
+        if (index === 0) {
+          setStroke("#ffe27a");
+        } else if (index === 1) {
+          setStroke("#8cddf3");
+        } else if (index === 2) {
+          setStroke("#75ebb0");
+        } else if (index === 3) {
+          setStroke("#ffa27a");
+        }
+        setInterval(() => {
+          setMenuText("Click Menu");
+          setStroke(color);
+        }, 1500);
+      });
+    });
+  }, [color]);
+
   useEffect(() => {
     IS_MOUNTED = true;
 
@@ -255,10 +278,12 @@ const Menu = ({ color }) => {
 
     setStroke(color);
 
+    addClickHandler();
+
     return () => {
       IS_MOUNTED = false;
     };
-  }, [dragDrop, color]);
+  }, [dragDrop, color, addClickHandler]);
 
   return (
     <div className={isMenuOpen ? styles.svgBackgroundContainer : ""}>
