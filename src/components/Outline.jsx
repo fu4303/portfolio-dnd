@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useCallback } from "react";
 import { TweenMax } from "gsap";
 import styles from "./Outline.module.css";
 
-const Outline = ({ color, setIsLoading }) => {
+const Outline = ({ color, setIsLoading, color1, color2, color3, color4 }) => {
   const TopSide = useRef();
   const LeftSide = useRef();
   const RightSide = useRef();
@@ -15,13 +15,13 @@ const Outline = ({ color, setIsLoading }) => {
       0.3,
       {
         width: 0,
-        background: color,
+        background: color1 ? color1 : color,
         immediateRender: false,
         autoRound: false,
       },
       {
         width: "100%",
-        background: color,
+        background: color1 ? color1 : color,
       }
     );
 
@@ -31,13 +31,13 @@ const Outline = ({ color, setIsLoading }) => {
       0.3,
       {
         height: 0,
-        background: color,
+        background: color2 ? color2 : color,
         immediateRender: false,
         autoRound: false,
       },
       {
         height: "100%",
-        background: color,
+        background: color2 ? color2 : color,
         delay: 0.5,
       }
     );
@@ -48,13 +48,13 @@ const Outline = ({ color, setIsLoading }) => {
       0.3,
       {
         width: 0,
-        background: color,
+        background: color3 ? color3 : color,
         immediateRender: false,
         autoRound: false,
       },
       {
         width: "100%",
-        background: color,
+        background: color3 ? color3 : color,
         delay: 0.8,
       }
     );
@@ -65,13 +65,13 @@ const Outline = ({ color, setIsLoading }) => {
       0.3,
       {
         height: 0,
-        background: color,
+        background: color4 ? color4 : color,
         immediateRender: false,
         autoRound: false,
       },
       {
         height: "100%",
-        background: color,
+        background: color4 ? color4 : color,
         delay: 1.1,
         onComplete: () => {
           setIsLoading(false);
@@ -84,7 +84,7 @@ const Outline = ({ color, setIsLoading }) => {
     //   { yPercent: 200, opacity: 0 },
     //   { yPercent: 0, opacity: 1, ease: Power3.easeInOut, stagger: 0.3 }
     // );
-  }, [color, setIsLoading]);
+  }, [color, setIsLoading, color1, color2, color3, color4]);
 
   useEffect(() => {
     performPageEnterAnimation();

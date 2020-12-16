@@ -1,15 +1,15 @@
 import React, { useEffect } from "react";
 import { Switch, Redirect, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import AOS from "aos";
+import Home from "./pages/Home";
 import Projects from "./pages/projects";
-import Home from "./components/Home";
 import About from "./pages/about";
 import Skills from "./pages/skills";
-import "aos/dist/aos.css";
-import "./App.css";
 import Contact from "./pages/contact";
 import PageNotFound from "./pages/404";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "./App.css";
 
 const App = () => {
   const location = useLocation();
