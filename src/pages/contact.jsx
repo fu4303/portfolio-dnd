@@ -8,8 +8,9 @@ import Navbar from "../components/Navbar";
 import Outline from "../components/Outline";
 import mailGif from "../images/mail.gif";
 import styles from "./about.module.css";
+import { Colors } from "../components/colors";
 
-const color = "#ffa27a";
+const color = Colors.Orange;
 
 const Contact = () => {
   const [isLoading, setIsLoading] = useState(true);

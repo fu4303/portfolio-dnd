@@ -5,8 +5,9 @@ import ModalMenu from "../components/ModalMenu";
 import Navbar from "../components/Navbar";
 import Outline from "../components/Outline";
 import "./skills.css";
+import { Colors } from "../components/colors";
 
-const color = "#8cddf3";
+const color = Colors.Blue;
 
 const frontendArr = [
   "html",

@@ -3,6 +3,7 @@ import Menu from "../components/Menu";
 import { motion } from "framer-motion";
 import styles from "./Home.module.css";
 import Outline from "../components/Outline";
+import { Colors } from "../components/colors";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -20,10 +21,10 @@ const Home = () => {
     >
       <Outline
         color="#0af"
-        color1="#ffe27a"
-        color2="#8cddf3"
-        color3="#75ebb0"
-        color4="#ffa27a"
+        color1={Colors.Yellow}
+        color2={Colors.Green}
+        color3={Colors.Orange}
+        color4={Colors.Blue}
         setIsLoading={setIsLoading}
       />
       {!isLoading && (

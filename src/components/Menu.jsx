@@ -5,6 +5,7 @@ import { Link, useHistory } from "react-router-dom";
 import classnames from "classnames";
 import { addMyFunction, myCloseFunction } from "../helper";
 import styles from "./Menu.module.css";
+import { Colors } from "./colors";
 
 let IS_MOUNTED = false;
 const Menu = ({ color }) => {
@@ -119,13 +120,13 @@ const Menu = ({ color }) => {
           setId(index);
           setMenuText("Drop Here");
           if (index === 0) {
-            setStroke("#ffe27a");
+            setStroke(Colors.Yellow);
           } else if (index === 1) {
-            setStroke("#8cddf3");
+            setStroke(Colors.Blue);
           } else if (index === 2) {
-            setStroke("#75ebb0");
+            setStroke(Colors.Green);
           } else if (index === 3) {
-            setStroke("#ffa27a");
+            setStroke(Colors.Orange);
           }
 
           event.dataTransfer.setData("text/plain", index);
@@ -253,13 +254,13 @@ const Menu = ({ color }) => {
       item.addEventListener("click", () => {
         setMenuText("Drop Here");
         if (index === 0) {
-          setStroke("#ffe27a");
+          setStroke(Colors.Yellow);
         } else if (index === 1) {
-          setStroke("#8cddf3");
+          setStroke(Colors.Blue);
         } else if (index === 2) {
-          setStroke("#75ebb0");
+          setStroke(Colors.Green);
         } else if (index === 3) {
-          setStroke("#ffa27a");
+          setStroke(Colors.Orange);
         }
         setInterval(() => {
           setMenuText("Click Menu");
@@ -325,7 +326,10 @@ const Menu = ({ color }) => {
         ref={Circle1Ref}
         className={classnames(styles.circle, "circle-selector")}
       >
-        <div className={styles.color} style={{ background: "#ffe27a" }}></div>
+        <div
+          className={styles.color}
+          style={{ background: Colors.Yellow }}
+        ></div>
         {isMenuOpen ? (
           <p className={styles.fieldTitle}>My Projects</p>
         ) : (
@@ -338,7 +342,7 @@ const Menu = ({ color }) => {
         ref={Circle2Ref}
         className={classnames(styles.circle, "circle-selector")}
       >
-        <div className={styles.color} style={{ background: "#8cddf3" }}></div>
+        <div className={styles.color} style={{ background: Colors.Blue }}></div>
         {isMenuOpen ? (
           <p className={styles.fieldTitle}>My Skills</p>
         ) : (
@@ -351,7 +355,10 @@ const Menu = ({ color }) => {
         ref={Circle3Ref}
         className={classnames(styles.circle, "circle-selector")}
       >
-        <div className={styles.color} style={{ background: "#75ebb0" }}></div>
+        <div
+          className={styles.color}
+          style={{ background: Colors.Green }}
+        ></div>
         {isMenuOpen ? (
           <p className={styles.fieldTitle}>About Me</p>
         ) : (
@@ -364,7 +371,10 @@ const Menu = ({ color }) => {
         ref={Circle4Ref}
         className={classnames(styles.circle, "circle-selector")}
       >
-        <div className={styles.color} style={{ background: "#ffa27a" }}></div>
+        <div
+          className={styles.color}
+          style={{ background: Colors.Orange }}
+        ></div>
         {isMenuOpen ? (
           <p className={styles.fieldTitle}>Contact Me</p>
         ) : (

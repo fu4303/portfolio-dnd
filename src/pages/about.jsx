@@ -8,8 +8,9 @@ import Outline from "../components/Outline";
 import styles from "./about.module.css";
 import SocialMedia from "../components/SocialMedia";
 import Resume from "./resume.pdf";
+import { Colors } from "../components/colors";
 
-const color = "#75ebb0";
+const color = Colors.Green;
 
 const About = () => {
   const [isLoading, setIsLoading] = useState(true);

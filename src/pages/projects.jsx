@@ -13,8 +13,9 @@ import covidMock from "../images/covid-mockup.jpg";
 import sortingMock from "../images/sorting-mockup.jpg";
 import styles from "./projects.module.css";
 import Outline from "../components/Outline";
+import { Colors } from "../components/colors";
 
-const color = "#ffe27a";
+const color = Colors.Yellow;
 
 const Projects = () => {
   const cardRef = useRef([]);
