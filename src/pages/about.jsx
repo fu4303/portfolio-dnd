@@ -35,7 +35,7 @@ const About = () => {
             {!isLoading && (
               <div className="column">
                 <h1 className="title is-2  is-spaced is-uppercase">
-                  Ferin Patel
+                  Alec Campbell
                 </h1>
                 <h1 className="subtitle is-4">Full Stack Developer</h1>
                 <p>
@@ -91,13 +91,13 @@ const About = () => {
                 <aside class="menu">
                   <p class="menu-label">Undergraduate</p>
                   <ul class="menu-list">
-                    <li>Bachelor of Engineering</li>
+                    <li>Bachelor of Arts and Sciences</li>
                     <li>
                       <ul>
                         <li className="m-2 is-size-5">Computer Engineering</li>
                         <li className="m-2">9.39 CGPA</li>
                         <li className="m-2">
-                          Gujarat Technological university
+                          University of Virginia
                         </li>
                       </ul>
                     </li>
