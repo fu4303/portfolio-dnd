@@ -31,7 +31,7 @@ const Home = () => {
         <>
           <Menu color={"#000"} />
           <p className={styles.titlePortfolio}>Portfolio</p>
-          <p className={styles.nameTitle}>Ferin Patel</p>
+          <p className={styles.nameTitle}>Alec Campbell</p>
         </>
       )}
     </motion.div>
