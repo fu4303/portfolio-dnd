@@ -4,7 +4,7 @@ import classnames from "classnames";
 import { Link } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import Navbar from "../components/Navbar";
-import ieltsMock from "../images/ielts-mockup.jpg";
+import ieltsMock from "../images/simonsays.png";
 import cattleMock from "../images/cattle-stray-mockup.jpg";
 import gravityMock from "../images/gravity-mockup.jpg";
 import simulatorMock from "../images/simulator-mockup.jpg";
