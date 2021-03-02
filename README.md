@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://portfolio-dnd-git-master-fu4303.vercel.app/#/"><img src="src/assets/images/portfolio-dnd.png?raw=true" alt="Nextjs starter banner"></a>
+</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
