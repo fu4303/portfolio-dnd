@@ -9100,10 +9100,10 @@ react-error-overlay@^6.0.8:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.8.tgz#474ed11d04fc6bda3af643447d85e9127ed6b5de"
   integrity sha512-HvPuUQnLp5H7TouGq3kzBeioJmXms1wHy9EGjz2OURWBp4qZO6AfGEcnxts1D/CbwPLRAgTMPCEgYhA3sEM4vw==
 
-react-gsap@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/react-gsap/-/react-gsap-2.2.1.tgz#259f4307d66f536616f0ece311cd887ebb9a79f6"
-  integrity sha512-6T5cpOpihXsZSnM7fYEb96reZRK0iJGv8QgpHreFEw2BvokhkgziyhB2TkXSWaDq4Mwlx0Piys9DiHErzRwp+A==
+react-gsap@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/react-gsap/-/react-gsap-3.1.0.tgz#85aae0755edfb0d6a27540a4d32a716d54b82ed9"
+  integrity sha512-XtffGhJGpujnY38RKW3SN9J9ZUxVXtXlXgadqgtZyjNMc/qILjCwKUNZGr+XOySTiDSxKoRvSpXRolX2T8ydtQ==
   dependencies:
     react-is "^16.13.1"
 
